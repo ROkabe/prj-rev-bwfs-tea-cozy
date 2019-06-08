@@ -1,0 +1,162 @@
+
+/* Universal Styles */
+
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  top: 0px;
+}
+
+body {
+  margin-top: 69px;
+}
+
+/* Header Section */
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  background-color: black;
+}
+
+header .logo {
+  margin-left: 10px;
+  flex-grow: 1;
+  text-align: left;
+}
+
+header .logo img {
+  height: 50px;
+  width: auto;
+
+}
+
+header nav {
+  margin-right: 10px;
+}
+
+header nav li {
+  display: inline-block;
+}
+
+header nav a {
+  text-decoration: underline;
+  color: seashell;
+  padding: 0 10px;
+}
+
+/* Mission Section */
+
+.banner {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.bannertext {
+  background-color: black;
+  width: 100%;
+}
+
+.bannertext h2  {
+  margin: 8px 0 20px 0;
+}
+
+.bannertext h4 {
+  margin: 20px 0 8px 0;
+
+}
+
+/* Featured Section */
+
+
+.featuredsection {
+  width: 1000px;
+  margin: 60px auto;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  margin: 0 15px;
+}
+
+.product img {
+  height: 200px;
+  width: 300px;
+}
+
+.producttext {
+  margin: 10px 0 20px 0;
+}
+
+/* Locations Section */
+
+.locationssection {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.locationstext h2 {
+  margin-bottom: 15px;
+}
+.locations {
+  display: flex;
+  justify-content: center;
+}
+
+.location {
+  background-color: black;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+  opacity: 1;
+}
+
+.location span {
+  margin-bottom: 40px;
+}
+
+/* Contact Information Secton */
+
+.contactsection {
+  height: 200px;
+  margin: auto;
+}
+
+/* Footer Section */
+
+footer {
+  width: 100%
+}
+
+footer h5 {
+  text-align: left;
+  margin-left: 20px;
+}
